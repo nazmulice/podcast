@@ -1,0 +1,17 @@
+const PORT = process.env.PORT || 8000;
+const MONGODB_URL = process.env.MONGODB_URL;
+const MONGODB_URL_PROD = process.env.MONGODB_URL_PROD;
+const JWT_SECRET = process.env.JWT_SECRET;
+const GMAIL_APP_EMAIL = process.env.GMAIL_APP_EMAIL;
+const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD;
+const SENDER_EMAIL_ADDRESS = process.env.SENDER_EMAIL_ADDRESS;
+
+module.exports = {
+  PORT,
+  MONGODB_URL,
+  MONGODB_URL_PROD,
+  JWT_SECRET,
+  GMAIL_APP_EMAIL,
+  GMAIL_APP_PASSWORD,
+  SENDER_EMAIL_ADDRESS,
+};
